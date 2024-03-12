@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stream_Opted__c</fullName>
+    <description>Choose Your Course</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose your Course</inlineHelpText>
+    <label>Stream Opted</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Android Decveloper</fullName>
+                <default>true</default>
+                <label>Android Decveloper</label>
+            </value>
+            <value>
+                <fullName>Data Science</fullName>
+                <default>false</default>
+                <label>Data Science</label>
+            </value>
+            <value>
+                <fullName>Full Stack Developer</fullName>
+                <default>false</default>
+                <label>Full Stack Developer</label>
+            </value>
+            <value>
+                <fullName>Web Designning</fullName>
+                <default>false</default>
+                <label>Web Designning</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SumOfAllRatings__c</fullName>
+    <description>SumOfAllRatings</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SumOfAllRatings</inlineHelpText>
+    <label>SumOfAllRatings</label>
+    <summarizedField>Rating__c.Rating_Out_of_5__c</summarizedField>
+    <summaryFilterItems>
+        <field>Rating__c.Rating_for_Value__c</field>
+        <operation>equals</operation>
+        <value>Assignment</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Rating__c.Ratings_Given_to_which_Student__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

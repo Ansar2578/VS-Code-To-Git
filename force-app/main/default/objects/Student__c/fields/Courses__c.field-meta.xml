@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Courses__c</fullName>
+    <externalId>false</externalId>
+    <label>Courses</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Stream_Opted__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>country</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Android Decveloper</controllingFieldValue>
+            <valueName>Android</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Android Decveloper</controllingFieldValue>
+            <controllingFieldValue>Full Stack Developer</controllingFieldValue>
+            <controllingFieldValue>Web Designning</controllingFieldValue>
+            <valueName>Java</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Android Decveloper</controllingFieldValue>
+            <valueName>Kotlin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Android Decveloper</controllingFieldValue>
+            <valueName>Xml</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Science</controllingFieldValue>
+            <valueName>Deep Learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Science</controllingFieldValue>
+            <valueName>Machine Learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Science</controllingFieldValue>
+            <valueName>Python</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Full Stack Developer</controllingFieldValue>
+            <controllingFieldValue>Web Designning</controllingFieldValue>
+            <valueName>Bootstrap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Full Stack Developer</controllingFieldValue>
+            <controllingFieldValue>Web Designning</controllingFieldValue>
+            <valueName>Css</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Full Stack Developer</controllingFieldValue>
+            <controllingFieldValue>Web Designning</controllingFieldValue>
+            <valueName>Html</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Designning</controllingFieldValue>
+            <valueName>Node js</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Designning</controllingFieldValue>
+            <valueName>React js</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
