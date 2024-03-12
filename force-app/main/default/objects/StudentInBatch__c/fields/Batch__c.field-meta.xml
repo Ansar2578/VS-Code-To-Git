@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch__c</fullName>
+    <description>Master is Batch Detail is StudentInBatch</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Master is Batch Detail is StudentInBatch</inlineHelpText>
+    <label>Batch</label>
+    <referenceTo>Batch__c</referenceTo>
+    <relationshipLabel>StudentInBatches</relationshipLabel>
+    <relationshipName>StudentInBatches</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

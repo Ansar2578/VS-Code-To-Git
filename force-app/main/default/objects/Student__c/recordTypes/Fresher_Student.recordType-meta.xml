@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fresher_Student</fullName>
+    <active>true</active>
+    <description>Fresher Student</description>
+    <label>Fresher Student</label>
+    <picklistValues>
+        <picklist>Courses__c</picklist>
+        <values>
+            <fullName>Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bootstrap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Css</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deep Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Html</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Java</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kotlin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machine Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Node js</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Python</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>React js</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xml</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hobbies__c</picklist>
+        <values>
+            <fullName>Dancing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Going To Gym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading Books</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stream_Opted__c</picklist>
+        <values>
+            <fullName>Android Decveloper</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Data Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Stack Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Designning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

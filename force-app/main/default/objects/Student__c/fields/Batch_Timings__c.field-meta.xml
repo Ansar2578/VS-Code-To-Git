@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch_Timings__c</fullName>
+    <description>Enter Your Timings</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter Your Timings</inlineHelpText>
+    <label>Batch Timings</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Time</type>
+</CustomField>

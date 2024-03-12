@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StudentNameValidateRule</fullName>
+    <active>true</active>
+    <errorConditionFormula>CONTAINS( Student_Name__c , &#39;test&#39;)</errorConditionFormula>
+    <errorMessage>Please enter valid name</errorMessage>
+</ValidationRule>
